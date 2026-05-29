@@ -15,7 +15,7 @@
         <li>
             <div style="text-align: center;">
                 
-                <a href="Index.php?action=MENTION_LEGAL"><strong>Les mentions légales</strong></a>
+                <a href="index.php?action=MENTION_LEGAL"><strong>Les mentions légales</strong></a>
             </div>
         </li>
     </ul>

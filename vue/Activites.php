@@ -68,7 +68,7 @@
     </head>
     <body>
         <?php require_once "vue/menu.php"; ?>
-        <a action="Index.php?action=ACTIVITE"></a>
+        <a action="index.php?action=ACTIVITE"></a>
         <div class="activites-container">
             <?php if (empty($listeActivites)): ?>
 
@@ -90,7 +90,7 @@
                         <p><span class="activite-label">Lieu :</span> <?php echo htmlspecialchars($uneActivite['lieu']); ?></p>
                         <p><span class="activite-label">Participants :</span> <?php echo htmlspecialchars($uneActivite['nb_participant']); ?></p>
                         <p><span class="activite-label">Description :</span> <?php echo htmlspecialchars($uneActivite['description_activite']); ?></p>
-                        <a href="Index.php?action=FORMULAIRE&id=<?php echo intval($uneActivite['ida']); ?>&name=<?php echo urlencode($uneActivite['nomA']); ?>"
+                        <a href="index.php?action=FORMULAIRE&id=<?php echo intval($uneActivite['ida']); ?>&name=<?php echo urlencode($uneActivite['nomA']); ?>"
                            class="btn-inscrire">
                             S'inscrire à cette activité
                         </a>

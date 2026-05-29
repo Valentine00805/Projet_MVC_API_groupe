@@ -1,9 +1,9 @@
 <?php
 
-$urlApiHoraires = "https://vallaurap.com/Projet_MVC_API/API/api_horaires.php";
-$urlApiMedicaments = "https://vallaurap.com/Projet_MVC_API/API/api_medicaments.php";
-$urlApiInscriptions = "https://vallaurap.com/Projet_MVC_API/API/api_inscriptions.php";
-$urlApiActivites = "https://vallaurap.com/Projet_MVC_API/API/api_activites.php";
+$urlApiHoraires = "http://127.0.0.1/Projet_MVC_API_groupe/API/api_horaires.php";
+$urlApiMedicaments = "http://127.0.0.1/Projet_MVC_API_groupe/API/api_medicaments.php";
+$urlApiInscriptions = "http://127.0.0.1/Projet_MVC_API_groupe/API/api_inscriptions.php";
+$urlApiActivites = "http://127.0.0.1/Projet_MVC_API_groupe/API/api_activites.php";
  
 // -----------------------------------------------
 // Récupérer tous les horaires

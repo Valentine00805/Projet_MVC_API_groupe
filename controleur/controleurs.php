@@ -45,9 +45,9 @@ function chargementFormInscription()
 
         // redirection selon le résultat
         if ($resultat['status'] === 1)
-            header("Location: Index.php?action=FORMULAIRE&id=" . $ida . "&name=" . urlencode($nomActivite) . "&success=1");
+            header("Location: index.php?action=FORMULAIRE&id=" . $ida . "&name=" . urlencode($nomActivite) . "&success=1");
         else
-            header("Location: Index.php?action=FORMULAIRE&id=" . $ida . "&name=" . urlencode($nomActivite) . "&error=1");
+            header("Location: index.php?action=FORMULAIRE&id=" . $ida . "&name=" . urlencode($nomActivite) . "&error=1");
         exit();
     }
 

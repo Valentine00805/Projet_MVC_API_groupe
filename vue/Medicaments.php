@@ -6,7 +6,7 @@
     <body>
         <?php require_once "vue/menu.php"; ?>
         
-        <a action="Index.php?action=MED"></a>
+        <a action="index.php?action=MED"></a>
 
         <div class="main">
             <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">

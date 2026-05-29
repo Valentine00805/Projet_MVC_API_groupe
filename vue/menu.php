@@ -13,13 +13,13 @@
 <nav>
     <ul>
         <li>
-            <a href="Index.php"><strong>Accueil</strong></a>
+            <a href="index.php"><strong>Accueil</strong></a>
         </li>
         <li>
-            <a href="Index.php?action=MED"><strong>Médicament</strong></a>
+            <a href="index.php?action=MED"><strong>Médicament</strong></a>
         </li>
         <li>
-            <a href="Index.php?action=ACTIVITE"><strong>Activité</strong></a>
+            <a href="index.php?action=ACTIVITE"><strong>Activité</strong></a>
         </li>
     </ul>
 </nav>

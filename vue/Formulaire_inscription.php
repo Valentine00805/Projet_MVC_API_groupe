@@ -14,7 +14,7 @@
         // Traitement du formulaire soumis
         if ($_SERVER["REQUEST_METHOD"] === "POST")
         {
-            $urlApiInscriptions = "http://127.0.0.1/mvc_cour_teste_projet/API/api_inscriptions.php";
+            $urlApiInscriptions = "http://127.0.0.1/Projet_MVC_API_groupe/API/api_inscriptions.php";
 
             $data = array(
                 'nom'           => $_POST["nom"],
@@ -61,7 +61,7 @@
             </div>
         <?php endif; ?>
 
-        <form action="Index.php?action=FORMULAIRE&id=<?php echo $ida; ?>&name=<?php echo urlencode($nomActivite); ?>" method="post">
+        <form action="index.php?action=FORMULAIRE&id=<?php echo $ida; ?>&name=<?php echo urlencode($nomActivite); ?>" method="post">
             <fieldset>
                 <legend><strong>Formulaire d'inscription : </strong></legend>
 

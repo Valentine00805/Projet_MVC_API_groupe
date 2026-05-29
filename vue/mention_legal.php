@@ -7,7 +7,7 @@
 
     <body>
        <?php require_once "vue/menu.php"; ?>    
-        <a action="Index.php?action=MENTION_LEGAL"></a>
+        <a action="index.php?action=MENTION_LEGAL"></a>
 
         <h1>Mentions légales</h1>
         <h2>Éditeur du site</h2>
