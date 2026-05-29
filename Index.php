@@ -1,6 +1,6 @@
 <?php 
 // inclusion du modèle 
-require_once "modele/modeleEtudiants.php";
+require_once "modele/modele.php";
 // inclusion des contrôleurs 
 require_once "controleur/controleurs.php";
 // lancement du bon contrôleur 
