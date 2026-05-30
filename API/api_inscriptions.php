@@ -43,7 +43,7 @@ function addInscription()
     {
         $response = array(
             'status'         => 0,
-            'status_message' => 'Erreur lors de l\'inscription.'
+            'status_message' => 'Activité complète ou erreur lors de l\'inscription.'
         );
     }
     header('Content-Type: application/json');

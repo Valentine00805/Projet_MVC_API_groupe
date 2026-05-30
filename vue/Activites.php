@@ -88,7 +88,12 @@
                         <h2><?php echo htmlspecialchars($uneActivite['nomA']); ?></h2>
                         <p><span class="activite-label">Date :</span> <?php echo htmlspecialchars($uneActivite['dateA']); ?></p>
                         <p><span class="activite-label">Lieu :</span> <?php echo htmlspecialchars($uneActivite['lieu']); ?></p>
-                        <p><span class="activite-label">Participants :</span> <?php echo htmlspecialchars($uneActivite['nb_participant']); ?></p>
+
+                        <!-- <p><span class="activite-label">Participants :</span> <?php echo htmlspecialchars($uneActivite['nb_participant']); ?></p> -->
+                        <p><span class="activite-label">Places totales :</span><?php echo htmlspecialchars($uneActivite['nb_participant']); ?></p>
+                        <p><span class="activite-label">Places restantes :</span><strong style="color: <?php echo $uneActivite['places_restantes'] > 0 ? '#2e7d32' : '#c62828'; ?>;">
+                                <?php echo $uneActivite['places_restantes'] > 0 ? $uneActivite['places_restantes'] . ' place(s)' : 'Complet'; ?></strong></p>
+
                         <p><span class="activite-label">Description :</span> <?php echo htmlspecialchars($uneActivite['description_activite']); ?></p>
                         <a href="index.php?action=FORMULAIRE&id=<?php echo intval($uneActivite['ida']); ?>&name=<?php echo urlencode($uneActivite['nomA']); ?>"
                            class="btn-inscrire">
